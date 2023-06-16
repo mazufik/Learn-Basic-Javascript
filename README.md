@@ -1,7 +1,7 @@
 # Learn Basic Javascript
 
 <ol>
-  <ul><a href="./hello-world/">Hello World</a></ul>
-  <ul><a href="./komentar/">Komentar</a></ul>
-  <ul><a href="./tipe-data/">Tipe Data</a></ul>
+  <li><a href="./hello-world/">Hello World</a></li>
+  <li><a href="./komentar/">Komentar</a></li>
+  <li><a href="./tipe-data/">Tipe Data</a></li>
 </ol>
