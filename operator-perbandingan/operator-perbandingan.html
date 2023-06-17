@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Operator Perbandingan</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      let result = 5 == "5"; // hasilnya true, karena tanda == hanya membandingan nilai tidak membandingkan tipe data
+      document.writeln("<p>" + result + "</p>");
+
+      result = 5 === "5"; // hasilnya false, karena tanda === bukan hanya membandingkan nilai tetapi juga membandingkan tipe data
+      document.writeln("<p>" + result + "</p>");
+
+      result = 5 > 10; // hasilnya false, karena 5 tidak lebih besar dari 10
+      document.writeln("<p>" + result + "</p>");
+
+      result = 5 < 10; // hasilnya true, karena 5 memang lebih kecil dari 10
+      document.writeln("<p>" + result + "</p>");
+    </script>
+  </body>
+</html>
