@@ -8,7 +8,7 @@ seperti :
 - Operator Unary
 - dan lain-lain
 
-### Opeator Aritmatika
+### Operator Aritmatika
 
 | Opeator | Keterangan  |
 | :-----: | ----------- |
@@ -18,3 +18,25 @@ seperti :
 |  \*\*   | Exponensial |
 |    /    | Pembagian   |
 |    %    | Sisa Bagi   |
+
+### Operator Augmented Assignments
+
+| Operator Matematika     | Operator Augmented Assignments |
+| ----------------------- | ------------------------------ |
+| result = result + 20    | result += 20                   |
+| result = result - 20    | result -= 20                   |
+| result = result \* 20   | result \*= 20                  |
+| result = result \*\* 20 | result \*\*= 20                |
+| result = result / 20    | result /= 20                   |
+| result = result % 20    | result %= 20                   |
+
+### Operator Unary
+
+Operator Unary adalah operator yang biasanya cukup cuman satu data saja.
+
+| Operator | Keterangan                    |
+| -------- | ----------------------------- |
+| +        | Menandakan nilai positif      |
+| \-       | Menandakan nilai negatif      |
+| ++       | Increment, menaikkan 1 angka  |
+| \--      | Decrement, menurunkan 1 angka |
