@@ -16,6 +16,8 @@
 - Binary : 0b10101 // untuk membuat binary harus di awali dengan 0b
 - Octal : 0o10 // untuk membuat octal harus di awali dengan 0o
 
+---
+
 ## Tipe Data Boolean
 
 - Tipe data boolean adalah tipe data yang berisikan data kebenaran, artinya
@@ -24,6 +26,8 @@
   dengan kata kunci false.
 - Walaupun tipe data boolean merupakan tipe data yang sangat sederhana, tapi
   tipe data boolean akan banyak digunakan di berbagai fitur pemrograman.
+
+---
 
 ## Tipe Data String
 
