@@ -43,8 +43,8 @@
 - JavaScript mendukung escape sequence di string. Escape sequence merupakan
   karakter khusus, seperti ENTER, TAB, " (kutip dua), dan lain-lain. Berikut
   contoh escape sequence yang didukung oleh JavaScript di data string.
-  - \n => ENTER
-  - \t => TAB
+  - `\n` => ENTER
+  - `\t` => TAB
   - `\'` => ' (kuti satu)
   - `\"` => " (kutip dua)
   - `\\` => \ (backslash)
