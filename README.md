@@ -12,4 +12,5 @@
   <li><a href="./string-template/">String Template (Template Literals)</a></li>
   <li><a href="./konversi-string-number/">Konversi String dan Number</a></li>
   <li><a href="./NaN/">NaN</a></li>
+  <li><a href="./isNaN/">isNaN Function</a></li>
 </ol>

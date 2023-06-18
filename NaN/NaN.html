@@ -11,11 +11,22 @@
       // contoh NaN
       document.writeln(`<p>${parseInt("salah")}</p>`); // NaN
       document.writeln(`<p>${parseFloat("1.1text")}</p>`); // 1.1
+      /*
+          Kenapa parseInt dan parseFloat kalau angkanya di depan hasilnya tetap
+          benar, contohnya "1.1text" karena javascript akan mentolelir data 
+          tersebut jika kesalahannya berada di belakang angka
+      */
 
       // Number() tidak akan mentolelir kesalahan pada data
       document.writeln(`<p>${Number("1.1ups")}</p>`); // NaN
       document.writeln(`<p>${Number("1x")}</p>`); // NaN
       document.writeln(`<p>${Number("bukan number")}</p>`); // NaN
+
+      const value1 = Number("salah"); // NaN
+      const value2 = 324;
+      const sum = value1 + value2; // NaN
+
+      document.writeln(`<p>${sum}</p>`);
     </script>
   </body>
 </html>
