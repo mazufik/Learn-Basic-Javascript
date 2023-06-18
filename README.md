@@ -8,4 +8,5 @@
   <li><a href="./operator-math">Operator Matematika</a></li>
   <li><a href="./operator-perbandingan/">Operator Perbandingan</a></li>
   <li><a href="./operator-logika/">Operator Logika</a></li>
+  <li><a href="./console/">Console</a></li>
 </ol>
