@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NaN</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+  </head>
+  <body>
+    <script>
+      // contoh NaN
+      document.writeln(`<p>${parseInt("salah")}</p>`); // NaN
+      document.writeln(`<p>${parseFloat("1.1text")}</p>`); // 1.1
+
+      // Number() tidak akan mentolelir kesalahan pada data
+      document.writeln(`<p>${Number("1.1ups")}</p>`); // NaN
+      document.writeln(`<p>${Number("1x")}</p>`); // NaN
+      document.writeln(`<p>${Number("bukan number")}</p>`); // NaN
+    </script>
+  </body>
+</html>
