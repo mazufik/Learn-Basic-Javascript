@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Konversi String dan Number</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      const value1 = "5";
+      const value2 = 2;
+
+      // konversi string ke number bilangan bulat
+      const sum = parseInt(value1) + value2;
+      document.writeln(`<p>Hasilnya : ${sum}</p>`);
+
+      // konversi string ke number bilangan decimal
+      document.writeln(`<p>${parseFloat("2.3")}</p>`);
+
+      // konversi string ke Number
+      document.writeln(`<p>Number("1.2")</p>`);
+
+      // Konversi number ke string
+      const a = 2;
+      const b = 4;
+      const total = a.toString() + b.toString();
+      document.writeln(`<p>${total}</p>`);
+    </script>
+  </body>
+</html>
