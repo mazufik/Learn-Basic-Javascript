@@ -9,4 +9,5 @@
   <li><a href="./operator-perbandingan/">Operator Perbandingan</a></li>
   <li><a href="./operator-logika/">Operator Logika</a></li>
   <li><a href="./console/">Console</a></li>
+  <li><a href="./string-template/">String Template</a></li>
 </ol>

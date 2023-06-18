@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Template Literals</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      <!-- Implementasi Template Literals -->
+      const fullName = "Taufik Rahman";
+
+      document.writeln(`Nama saya adalah ${fullName}`);
+      document.writeln("<br>");
+
+      // Implementasi Expression di Template Literals
+      const value = 90;
+
+      const template = `Nama : ${fullName}, Lulus : ${value > 75}`;
+
+      document.writeln(template);
+
+      // Implementasi Multiline String
+      let multilineString = `
+      Nama saya adalah taufik rahman
+      senang belajar javascript
+      Typescript, python dan
+      Golang
+      `;
+
+      document.writeln("<pre>");
+      document.writeln(multilineString);
+      document.writeln("</pre>");
+    </script>
+  </body>
+</html>
